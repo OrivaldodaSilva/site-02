@@ -1,0 +1,54 @@
+h1 {
+    color: chartreuse;
+}
+h2 {
+    color: blueviolet;
+}
+h3 {
+    color: rgb(193, 41, 41);
+}
+
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    margin: 100px;
+    padding: 300px;
+}
+.item{
+     position: relative;
+     margin: auto;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left:50%
+}
+.footer{
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+}
+.midias{
+    display: flex;
+    position:absolute;
+    list-style:none ;
+}
+.midias img{
+    align-items: center;
+}
+body {
+    background-color: #808080;
+}
+.menu{
+    margin-right: 30px;
+}
+.menu a{
+    margin-left: 20px;
+}
